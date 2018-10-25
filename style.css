@@ -1,0 +1,137 @@
+body
+{
+	margin : 0;
+}
+
+@font-face {
+    font-family: berina;
+    src: url(assets/fonts/berina.woff2);
+}
+
+@font-face {
+    font-family: GhotamGTF;
+    src: url(assets/fonts/GothamHTF.ttf);
+}
+
+@media only screen and (max-width: 480px)
+{
+
+	#gym { order : 3; }
+
+	#phone { order: 1; }
+
+	#cryo { order: 2; }
+
+	.slogan { text-align: left; }
+}
+@media only screen and (min-width: 768px)
+{
+
+	#gym { order : 1; }
+
+	#phone { order: 2; }
+
+	#cryo { order: 3; }
+
+	.slogan { text-align: left; }
+}
+
+.haut {
+	position: relative;
+	font-family: berina ;
+}
+
+.haut img
+{
+	max-width: 100%;
+	height:auto;
+}
+
+.promo
+{
+    transform: rotate(20deg); /* Standard syntax */
+    border-radius : 5px;
+	text-align: center;
+	color : white;
+	width: 150px;
+	height: 60px;
+	background-color: #860018;
+	position: absolute;
+	right: 50px;
+	top : 50px;
+}
+.bandeau 
+{
+	width: 100%;
+	font-size: 20px;
+	background-color: white;
+	position: absolute;
+	opacity: 0.2;
+	bottom: 8px;
+}
+.litle
+{
+	font-size: 10px;
+}
+
+.bas 
+{
+	position: relative;
+	background-color: #f0ffff;
+	width: 100%;
+}
+
+.container 
+{
+	margin: auto;
+	width: 50%;
+}
+
+.container #rdv
+{
+	position: absolute;
+	right: 25%;
+	top : 5%;
+	font-family: GhotamGTF;
+	color : #00465b ;
+	font-size: 15px;
+	border-radius: 5px;
+	border-color: lightgrey;
+	background-color: #f0ffff;
+}
+
+.text
+{
+	text-align : center;
+	color : #00465b;
+	font-family : berina;
+}
+.slogan 
+{
+	text-align: right;
+	color :#00465b;
+	font-family: GhotamGTF;
+	right: 10%;
+}
+.liens
+{
+	position: relative;
+	text-align: center;
+}
+.images img
+{
+	border-radius: 70%;
+}
+.images
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.legend
+{
+	color :#00465b;
+	font-family: GhotamGTF;
+	position: relative;
+	bottom: 0px;
+}
